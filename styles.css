@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 500px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 10px 0 0 0;
+    margin-top:200px;
+    font-size:60px ;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 20px;
+}
+
+.poet-section {
+    margin-bottom: 30px;
+}
+
+.poet-section img {
+    width: 200px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+}
+.section h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons {
+    margin-top: 10px;
+    
+}
+.logo{
+   background-color: #1B1C1D;
+}
+.buttons {
+    color: #fff;
+    font-size: larger;
+    padding: 30px 20px;
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+   
+}
+.gray{
+    background-color: #333;
+    width:5px;
+    height:8px;
+}
+.red{
+    background-color: red;
+}
+.org{
+    background-color: orange;
+}
+.img{
+ image-orientation: from-image;
+margin-bottom: 90px;
+}
+
+.quote {
+    background-color:#1B1C1D;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+
+.awards {
+    padding: 20px;
+    background: #eee;
+  
+}
+
+.award-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.award {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.writings {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.writings .poetry, .writings .songs {
+    width: 45%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
